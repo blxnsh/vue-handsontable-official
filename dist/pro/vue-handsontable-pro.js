@@ -23,7 +23,7 @@
  * TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE
  * SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
  * 
- * Version: 2.0.0 (built at Fri Jun 22 2018 10:11:08 GMT+0200 (CEST))
+ * Version: 2.0.0 (built at Sat Aug 25 2018 21:43:46 GMT+0300 (Eastern European Summer Time))
  */
 (function webpackUniversalModuleDefinition(root, factory) {
 	if(typeof exports === 'object' && typeof module === 'object')
@@ -133,6 +133,11 @@ function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { de
 exports.default = {
   name: 'HotTable',
   props: _helpers.propFactory.call(undefined, _hotAlias2.default),
+  data: function data() {
+    return {
+      instance: _hotAlias2.default
+    };
+  },
   watch: _helpers.propWatchFactory.call(undefined, _helpers.updateHotSettings, _helpers.updateBulkHotSettings),
   mounted: function mounted() {
     return _helpers.hotInit.call(this, _hotAlias2.default);
@@ -238,7 +243,7 @@ exports = module.exports = __webpack_require__(5)(true);
 
 
 // module
-exports.push([module.i, "\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n", "", {"version":3,"sources":[],"names":[],"mappings":"","file":"HotTable.vue","sourceRoot":""}]);
+exports.push([module.i, "\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n", "", {"version":3,"sources":[],"names":[],"mappings":"","file":"HotTable.vue","sourceRoot":""}]);
 
 // exports
 
